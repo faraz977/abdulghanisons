@@ -28,6 +28,11 @@ export default function Contact() {
                     {phone}
                   </a>
                 ))}
+                {person.email && (
+                  <a className="mt-1 block text-paper/80" href={`mailto:${person.email}`}>
+                    {person.email}
+                  </a>
+                )}
                 <a
                   className="mt-2 inline-block text-xs uppercase tracking-[0.16em] text-blue"
                   href={`https://wa.me/${person.wa}`}

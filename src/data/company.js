@@ -4,11 +4,12 @@ export const company = {
   tagline: 'Industrial wiping rags and cotton rags, manufactured in Karachi.',
   email: 'info@abdulghanisons.com',
   hours: 'Mon–Sat, 09:00–19:00 PKT',
-  address: 'Plot# 25/17, Sector 12-C, North Karachi Industrial Area, Karachi, Pakistan',
+  address: 'DP-29A, Sector 12-D, North Karachi Industrial Area, Karachi, Pakistan',
   contacts: [
     {
-      name: 'S Faraz Ali',
+      name: 'Syed Faraz Ali',
       phones: ['+92 333 2745977', '+1 832 699-0420'],
+      email: 'faraz.ali@abdulghanisons.com',
       wa: '923332745977',
     },
     {
@@ -55,11 +56,11 @@ export const copy = {
   packaging:
     'Pack in polythene, jute, or cotton bags from 5 kg to 500 kg, including 25 kg, 50 kg, and 400 kg options. Compressed bales available. Imported packing machines on site.',
   mill:
-    'The mill sits in North Karachi Industrial Area, a working textile district with access to port, yarn, and reclaim supply. Plot 25/17, Sector 12-C is where sorting, cutting, inspection, and packing happen under one roof. Visitors see bales, bags, and grade samples on the floor, not a showroom of finished garments.',
+    'The mill sits in North Karachi Industrial Area, a working textile district with access to port, yarn, and reclaim supply. DP-29A, Sector 12-D is where sorting, cutting, inspection, and packing happen under one roof. Visitors see bales, bags, and grade samples on the floor, not a showroom of finished garments.',
   history:
     'From the first export lots in 2012, the company focused on one product family: industrial wiping rags. Fresh mill-white jersey for buyers who need a bright, low-lint wipe. Reclaimed T-shirt, sweatshirt, woven, flannel, and terry cuts for volume programs. Color reclaim for grease, ink, and paint. That focus is why a buyer can reorder AGSF, AGSU, or AGSUC codes and get the same hand, cut, and pack.',
   people:
-    'Quotes, samples, and shipment follow-up go through the mill office. S Faraz Ali and Haroon Shaikh handle export inquiries by phone, WhatsApp, and email. Hours are Monday to Saturday, 09:00 to 19:00 Pakistan time. Tell us destination port, monthly kilos, cut size if not 15 cm, and bag or bale weight.',
+    'Quotes, samples, and shipment follow-up go through the mill office. Syed Faraz Ali and Haroon Shaikh handle export inquiries by phone, WhatsApp, and email. Hours are Monday to Saturday, 09:00 to 19:00 Pakistan time. Tell us destination port, monthly kilos, cut size if not 15 cm, and bag or bale weight.',
   whyKarachi:
     'Karachi gives the mill both unused jersey from local knitting and a steady stream of sorted reclaim. That mix lets us run fresh whites and reclaimed grades on the same packing line. Container stuffing for USA, Europe, the Gulf, Africa, Australia, and Asia leaves from Karachi port.',
 }

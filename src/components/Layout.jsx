@@ -87,7 +87,12 @@ export default function Layout({ children }) {
           <div className="text-sm leading-7">
             <p className="font-semibold text-navy">Contact us</p>
             <p className="mt-2">{company.address}</p>
-            <p>Call: +92 315 3035299</p>
+            <a className="mt-2 block" href="tel:+923332745977">
+              +92 333 2745977
+            </a>
+            <a className="block" href="tel:+923153035299">
+              +92 315 3035299
+            </a>
             <p>{company.email}</p>
           </div>
         </div>
