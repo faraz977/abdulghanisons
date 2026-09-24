@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #102a43;
+  --color-ink-soft: #243b53;
+  --color-paper: #ffffff;
+  --color-paper-deep: #f3f8fc;
+  --color-linen: #d6e6f2;
+  --color-blue: #00aeee;
+  --color-blue-deep: #0077b6;
+  --color-navy: #0b2c4d;
+  --color-mist: #627d98;
+  --color-rust: #00aeee;
+  --color-rust-deep: #0077b6;
+  --color-olive: #0b2c4d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #b9e8f8;
+  color: var(--color-navy);
+}
+
+.hero-scrim {
+  background: linear-gradient(90deg, rgba(11, 44, 77, 0.88) 0%, rgba(11, 44, 77, 0.55) 52%, rgba(0, 174, 238, 0.18) 100%);
+}
